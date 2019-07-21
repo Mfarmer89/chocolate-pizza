@@ -1,0 +1,53 @@
+body {
+  /* background: #cc8169f7; */
+  padding: 2% 14% 4%;
+}
+
+h1, h2 {
+  display: inline-block; 
+}
+
+#social {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  left: 54%;
+}
+
+#contact {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  left: 55%;
+}
+
+.spacer {
+  background-image: url("img/hr-img.png");
+  background-repeat: repeat;
+  height: 10px;
+  width: 100%;
+}
+ #mainpic {
+   width: 100%;
+ }
+
+ #recipeCard {
+  background-image: url("img/list-bg.png");
+  background-repeat: no-repeat;
+ }
+
+ li {
+  list-style-type: square;
+ }
+
+li:nth-child(even) {
+  margin: 10%;
+}
+
+button {
+  background: #cc8169f7;
+  border: none;
+  color: white;
+  padding: 1em 4em;
+  text-transform: uppercase;
+}
