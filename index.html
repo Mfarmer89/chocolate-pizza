@@ -9,27 +9,37 @@
 </head>
 <body>
   <header>
-    <a href="#"><img src="img/logo.png" alt="company logo" /></a>
-    <h1>Delicious</h1>
-    <div id="social">
-      <a href=""><img src="img/fb-icon.png" alt="facebook icon" /></a>
-      <a href=""><img src="img/twit-icon.png" alt="twitter icon" /></a>
-      <a href=""><img src="img/gp-icon.png" alt="google plus icon" /></a>
-      <a href=""><img src="img/insta-icon.png" alt="instagram icon" /></a>
-      <a href=""><img src="img/flic-icon.png" alt="flic icon" /></a>
-      <a href=""><img src="img/pint-icon.png" alt="pinterest icon" /></a>
+    <div class="flexbox">
+      <div>
+          <a href="#"><img src="img/logo.png" alt="company logo" /></a>
+      </div>
+      <div class="flexgrow1">
+        <h1>Delicious</h1>
+        <h2>The best food blog on the web.</h2>
+      </div>
+      <div>
+        <a href=""><img src="img/fb-icon.png" alt="facebook icon" /></a>
+        <a href=""><img src="img/twit-icon.png" alt="twitter icon" /></a>
+        <a href=""><img src="img/gp-icon.png" alt="google plus icon" /></a>
+        <a href=""><img src="img/insta-icon.png" alt="instagram icon" /></a>
+        <a href=""><img src="img/flic-icon.png" alt="flic icon" /></a>
+        <a href=""><img id= "divider" src="img/pint-icon.png" alt="pinterest icon" /></a>
+        <a href=""><img src="img/rss-icon.png" alt="rss icon" /></a>
+        <a href=""><img src="img/mail-icon.png" alt="mail icon" /></a>
+      </div>
     </div>
-      <div id="contact">
-      <a href=""><img src="img/rss-icon.png" alt="rss icon" /></a>
-      <a href=""><img src="img/mail-icon.png" alt="mail icon" /></a>
-    </div>
-    <h2>The best food blog on the web.</h2>
     <div class="spacer"></div>
   </header>
   <main>
-    <h3>Chocolate Pizza</h3>
-    <p>Posted on 15 Dec 2013 / Desserts</p>
-    <a href=""><img src="img/print-icon.png" alt="print icon" />PRINT</a>
+    <div class="flexbox">
+      <div class="flexgrow1">
+          <h3>Chocolate Pizza</h3>
+          <p>Posted on 15 Dec 2013 / Desserts</p>
+      </div>
+      <div>
+          <a href=""><img src="img/print-icon.png" alt="print icon" />PRINT</a>
+      </div>
+    </div>
     <img src="img/choco-pizza.png" id="mainpic" alt="chocolate pizza" />
     <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
     <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fix mixture is cooled.</p>
@@ -37,30 +47,33 @@
     <div id="recipeCard">
       <ul>
         <li>1 1/2 cups milk</li>
-        <li>1 1/2 cups heavy cream</li>
         <li>1/2 cup mascarpone</li>
-        <li>1/3 granulated sugar</li>
         <li>1/2 tsp pink salt</li>
-        <li>2 egg yolks</li>
         <li>1 lb Black Mission Figs</li>
-        <li>1 lemon, juiced</li>
         <li>1/2 cup brown sugar</li>
-        <li>2 tbsp butter</li>
         <li>2-4 tbsp water</li>
+        <li>1 1/2 cups heavy cream</li>
+        <li>1/3 granulated sugar</li>
+        <li>2 egg yolks</li>
+        <li>1 lemon, juiced</li>
+        <li>2 tbsp butter</li>
         <li>1 cup honey roasted pecans, roughly chopped</li>
       </ul>
     </div>
     <div class="spacer"> </div>
-    <div>
+    <div class="flexbox">
       <img src="img/van-pic.png" alt="contributor" />
-      <h4>Vanessa Stevenson</h4>
-      <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+      <div class="flexgrow1">
+          <h4>Vanessa Stevenson</h4>
+          <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+      </div>
       <button>Share Recipe</button>
     </div>
+    <hr>
     <img src="img/small-logo.png" alt="small logo" />
   </main>
   <footer>
-    Delicious [copyright symbol] 2013 - All Rights Reserved.
+    Delicious [copyright symbol] 2013 - All Rights Reserved.<br>
     Proudly published with Ghost.
   </footer>
 </body>
